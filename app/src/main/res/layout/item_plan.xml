@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_view_plan_discount"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="7dp"
+        android:layout_marginRight="25dp"
+        android:paddingRight="7dp"
+        android:background="@drawable/bg_loading_subtitles_accent"
+        android:elevation="11dp"
+        android:text="Save 3$"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_plan"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/dark_gray"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="10dp"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_view_plan_title"
+                    android:textSize="9pt"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:paddingBottom="3dp"
+                    android:layout_centerVertical="true"
+                    android:text="3 Months"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/text_view_plan_description"
+                    android:textStyle="bold"
+                    android:textSize="6pt"
+                    android:textColor="@color/white"
+                    android:paddingTop="3dp"
+                    android:layout_centerVertical="true"
+                    android:text="9$ par Month"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/text_view_plan_price"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingBottom="3dp"
+                android:layout_centerVertical="true"
+                android:text="10 USD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

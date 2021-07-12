@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.greenfrvr:rubber-loader:1.1.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65debe7696c12a2a79e40885b810367b/jetified-rubber-loader-1.1.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d13c2de42ba8ffb770bbc11ed765e3e8/jetified-rubber-loader-1.1.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65debe7696c12a2a79e40885b810367b/jetified-rubber-loader-1.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65debe7696c12a2a79e40885b810367b/jetified-rubber-loader-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65debe7696c12a2a79e40885b810367b/jetified-rubber-loader-1.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d13c2de42ba8ffb770bbc11ed765e3e8/jetified-rubber-loader-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d13c2de42ba8ffb770bbc11ed765e3e8/jetified-rubber-loader-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d13c2de42ba8ffb770bbc11ed765e3e8/jetified-rubber-loader-1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.greenfrvr/rubber-loader/1.1.2/4ee1d370c5f7d4f7a5d376e3ae3e2d9680fbe576/rubber-loader-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.greenfrvr/rubber-loader/1.1.2/baae33b56d60cd8f2abd64b634b9b2cf92fe9cea/rubber-loader-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

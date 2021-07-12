@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_view_item_source_type_image"
+            android:tint="@color/black"
+            android:background="#c8ffffff"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_mp4_file"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/image_view_item_source_premium"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:padding="3dp"
+            android:elevation="5dp"
+            android:tint="@color/black"
+            android:background="@drawable/bg_fab_accent"
+            app:srcCompat="@drawable/ic_star"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+        <LinearLayout
+
+
+            android:paddingLeft="16dp"
+            android:gravity="center|left"
+            android:orientation="vertical"
+            android:layout_marginRight="55dp"
+            android:layout_marginLeft="55dp"
+            android:background="#c8ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/text_view_item_source_type"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Mp4 Source"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text_view_item_source_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/text_view_item_source_quality"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_email_btn"
+            android:text="FHD"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="6pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:background="#c8ffffff"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:visibility="gone"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/image_view_item_source_type_download"
+                android:padding="11dp"
+                android:tint="@color/black"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/ic_file_download"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <ImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/image_view_item_source_type_link"
+                android:padding="11dp"
+                android:tint="@color/black"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/ic_launch"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

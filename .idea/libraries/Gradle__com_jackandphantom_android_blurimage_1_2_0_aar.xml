@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jackandphantom.android:blurimage:1.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8518bed875a4d69dc17bfcfcd316313/jetified-blurimage-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8518bed875a4d69dc17bfcfcd316313/jetified-blurimage-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8518bed875a4d69dc17bfcfcd316313/jetified-blurimage-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea53d8070ab4962f4537f6336eaa2cb2/jetified-blurimage-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea53d8070ab4962f4537f6336eaa2cb2/jetified-blurimage-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea53d8070ab4962f4537f6336eaa2cb2/jetified-blurimage-1.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jackandphantom.android/blurimage/1.2.0/57114da549f7a3ce098d0c079250d8b2d3d8535a/blurimage-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jackandphantom.android/blurimage/1.2.0/4066e4eca4ccf8976e31ccf005d9f8ae2c945b34/blurimage-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
